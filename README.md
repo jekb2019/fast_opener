@@ -1,4 +1,4 @@
-# fast_opener
+# fast_web_opener
 
 ## How to open dummy version of fast_opener from Windows
 1. open window command prompt
