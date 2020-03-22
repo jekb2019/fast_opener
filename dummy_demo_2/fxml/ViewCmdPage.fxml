@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="dummy1.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="92.0" layoutY="27.0" text="Existing Commands">
          <font>
@@ -25,6 +25,6 @@
             <Font size="15.0" />
          </font>
       </Button>
-      <Hyperlink layoutX="256.0" layoutY="255.0" text="Back to setting" />
+      <Hyperlink layoutX="256.0" layoutY="255.0" text="Back to setting" onAction="#setting"/>
    </children>
 </AnchorPane>
