@@ -1,0 +1,8 @@
+Integration 1 function:
+
+
+It DOES NOT have implementation of database (the actual command and url saved)
+It DOES NOT save, add, run any user-specified command or url
+
+What it only does is open www.google.com when "open" button is pressed. 
+on the terminal it shows that the command box text is captured.
